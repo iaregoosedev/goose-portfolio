@@ -1,7 +1,7 @@
 {
   "name": "goose-portfolio",
   "version": "0.1.0",
-  "homepage": "https://iaregoosedev.github.io/goose-portfolio",
+  "homepage": "https://jasonbessett.com",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
