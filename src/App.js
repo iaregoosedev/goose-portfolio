@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Prepublish from './Components/prepublish.js'
+import Prepublish from './Components/prepublish.js';
 
 function App() {
   return (
