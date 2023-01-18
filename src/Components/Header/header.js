@@ -1,4 +1,4 @@
-import "./../../Styles/header.css"
+import "../Header/header.css"
 import Logo from "./../../Data/logo.js"
 
 export default function Header() {
@@ -10,10 +10,10 @@ export default function Header() {
                     <h1 className="m-0 name">Jason Bessett</h1>
                 </div>
                 <ul className="col-7 navLinks">
-                    <li>About Me</li>
-                    <li>Portfolio</li>
-                    <li>Resume</li>
-                    <li>Contact Me</li>
+                    <li><h6 className="m-0">About Me</h6></li>
+                    <li><h6 className="m-0">Portfolio</h6></li>
+                    <li><h6 className="m-0">Resume</h6></li>
+                    <li><h6 className="m-0">Contact Me</h6></li>
                 </ul>
             </div>
         </div>

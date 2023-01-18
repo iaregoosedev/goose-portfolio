@@ -4,11 +4,28 @@
 }
 
 .App-header {
-  background-color: #414C64;
+  background-color: #0B1325;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 24px;
+}
+
+.App-header::before {
+  content: '';
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  box-shadow: 0 0 0 35px black;
+  border-radius: 40px;
+  z-index: 3;
+  top: 0;
+  pointer-events: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .App-header::before {
+    box-shadow: none;
+  }
 }

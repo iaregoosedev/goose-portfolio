@@ -1,0 +1,94 @@
+
+.hero {
+    height: calc(100vh - 80px);
+    width: 100%;
+    transform: translateY(80px);
+    padding: 0 24px;
+}
+
+@media screen and (max-width: 1264px) {
+    .heroLeft {
+        padding-left: 24px;
+    }
+}
+
+.textImage {
+    display: flex;
+    margin: auto;
+    height: calc(100vh - 180px);
+    max-width: 1200px;
+}
+
+.textImage::before {
+    content: "";
+    height: calc(100vh - 80px);
+    position: absolute;
+    inset: 0px;
+    background: linear-gradient(rgba(14, 25, 49, 0.5) 0%, #0B1325 100%), linear-gradient(rgba(14, 25, 49, 0.2) 0%, transparent 100%);
+    z-index: 0;
+}
+
+.heroLeft {
+    height: calc(100vh - 80px);
+    top: 0;
+    left: 0;
+    /* background: #0E1931e0; */
+    background: linear-gradient(#0E1931e0, #0B1325 100%), linear-gradient(rgba(14, 25, 49, 0.2) 0%, transparent 100%);
+    box-shadow: 35px 0 0 #71798b;
+    z-index: 0;
+    color: white;
+}
+
+.heroLeft::before {
+    content: '';
+    position: absolute;
+    /* background: #0E1931e0; */
+    background: linear-gradient(#0E1931e0, #0B1325 100%), linear-gradient(rgba(14, 25, 49, 0.2) 0%, transparent 100%);
+    width: 1000px;
+    height: calc(100vh - 80px);
+    transform: translateX(-1250px);
+}
+
+@media screen and (max-width: 1264px) {
+    .heroLeft::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        background: linear-gradient(#0E1931e0, #0B1325 100%), linear-gradient(rgba(14, 25, 49, 0.2) 0%, transparent 100%);
+        width: 1274px;
+        height: calc(100vh - 80px);
+    }
+}
+
+.textContainer {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    text-align: left;
+}
+
+.heroArrow {
+    position: relative;
+    display: flex;
+    background: white;
+    max-width: 1200px;
+    padding: 12px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+    border-radius: 20px 20px 0 0;
+    margin: auto;
+}
+
+.heroArrow:hover {
+    color: white;
+    background: #414C64;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1264px) {
+    .heroArrow {
+        margin: 0 40px;
+    }
+}

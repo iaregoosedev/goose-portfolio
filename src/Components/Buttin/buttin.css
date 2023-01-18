@@ -1,0 +1,10 @@
+.buttin {
+    color: #0B1325;
+    border-radius: 8px;
+    border: none;
+}
+
+.buttin:hover {
+    color: white;
+    background: #414C64;
+}

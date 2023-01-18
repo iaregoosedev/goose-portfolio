@@ -1,4 +1,4 @@
-import "./../Styles/header.css"
+import "./../Components/Header/header.css"
 
 export default function Logo() {
     return (
