@@ -4,6 +4,8 @@ import Prepublish from './Components/prepublish.js';
 import Header from './Components/Header/header.js';
 import Hero from './Components/Hero/hero.js';
 import AboutMe from './Components/AboutMe/aboutMe.js'
+import PorfolioGallery from './Components/PortfolioGallery/portfolioGallery.js';
+import Resume from './Components/Resume/Resume';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
         <Header/>
         <Hero />
         <AboutMe/>
+        <PorfolioGallery/>
+        <Resume/>
       </header>
     </div>
   );

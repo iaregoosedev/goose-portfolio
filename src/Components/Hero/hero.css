@@ -6,11 +6,11 @@
     padding: 0 24px;
 }
 
-@media screen and (max-width: 1264px) {
+/* @media screen and (max-width: 1264px) {
     .heroLeft {
         padding-left: 24px;
     }
-}
+} */
 
 .textImage {
     display: flex;
@@ -79,6 +79,7 @@
     z-index: 0;
     border-radius: 20px 20px 0 0;
     margin: auto;
+    transition: all 0.2s ease-in-out 0s;
 }
 
 .heroArrow:hover {

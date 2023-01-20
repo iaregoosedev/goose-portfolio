@@ -15,7 +15,6 @@ export default function AboutMe() {
                 </div>
                 <div className="col-6 aboutRight pe-0">
                     <div className="headshot" style={{backgroundImage: `url(${Headshot})`}}></div>
-                    <div className="headshotBack"></div>
                 </div>
             </div>
             
