@@ -1,9 +1,6 @@
 .App {
   text-align: center;
   font-family: Jura, sans-serif;
-}
-
-.App-header {
   background-color: #0B1325;
   min-height: 100vh;
   display: flex;
@@ -12,7 +9,7 @@
   justify-content: center;
 }
 
-.App-header::before {
+.App::before {
   content: '';
   position: fixed;
   height: 100vh;
@@ -28,4 +25,16 @@
   .App-header::before {
     box-shadow: none;
   }
+}
+
+::-webkit-scrollbar {
+  position: absolute;
+  width: 0;
+}
+
+::-webkit-scrollbar-thumb {
+
+}
+::-webkit-scrollbar-track {
+background-color: black;
 }

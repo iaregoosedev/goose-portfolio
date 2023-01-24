@@ -8,7 +8,7 @@
     width: 100%;
     color: white;
     text-align: left;
-    padding: 0 24px 140px 24px;
+    padding: 140px 24px 0 24px;
 }
 
 .galleryGrid {
@@ -18,6 +18,7 @@
     align-items: center;
     gap: 24px;
     padding-top: 24px;
+    border-radius: 10px;
 }
 
 .portfolioCard {
@@ -28,9 +29,8 @@
     justify-content: flex-start;
     -webkit-box-align: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 20px;
     max-height: 340px;
-    box-shadow: rgb(0 0 0 / 20%) 0px 1px 3px;
     transition: all 0.2s ease-in-out 0s;
     background-size: cover;
     background-position: center center;
@@ -63,5 +63,14 @@
 
 h2 {
     z-index: 1;
+    color: white;
+}
+
+a {
+    color: #0B1325;
+    text-decoration: none;
+}
+
+a:hover {
     color: white;
 }

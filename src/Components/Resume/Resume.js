@@ -12,13 +12,10 @@ export default function Resume() {
                     <img className="resumeImg" src={require('../../Images/Resume_2023.png')}/>
                 </div>
                 <div className="col-6 aboutLeft pe-0">
-                    
                     <h2>Please feel free to download my resume</h2>
-                    <Buttin>Download</Buttin>
+                    <Buttin><a href={require('../../Data/Bessett_Resume_2023.pdf')} download="Bessett_Resume">Download</a></Buttin>
                 </div>
-                
             </div>
-            
         </div>
     )
 }

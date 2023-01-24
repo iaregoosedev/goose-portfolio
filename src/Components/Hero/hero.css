@@ -4,6 +4,7 @@
     width: 100%;
     transform: translateY(80px);
     padding: 0 24px;
+    z-index: 1;
 }
 
 /* @media screen and (max-width: 1264px) {
@@ -86,6 +87,8 @@
     color: white;
     background: #414C64;
     cursor: pointer;
+    height: 120px;
+    transform: translateY(-20px);
 }
 
 @media screen and (max-width: 1264px) {

@@ -33,6 +33,7 @@
 
 .name {
     padding-left: 40px;
+    color: white;
 }
 
 .headerRow::before {
@@ -56,4 +57,28 @@
     align-items: center;
     /* padding: 0  24px 0 24px; */
     flex: auto;
+}
+
+.navLink {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.navLink:hover {
+    padding-top: 4px;
+    cursor: pointer;
+    color: #121F3D;
+    border-bottom: 4px solid #121F3D;
+}
+
+.active {
+    color: #121F3D;
+    border-bottom: 4px solid orange;
+    padding-top: 4px;
+}
+
+.noActive {
+    padding-top: 0;
+    border-bottom: none;
 }
