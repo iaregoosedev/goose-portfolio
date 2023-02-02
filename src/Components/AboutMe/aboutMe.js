@@ -9,7 +9,7 @@ export default function AboutMe() {
         <div className="aboutMe">
             <div className="aboutContainer row gx-6">
                 <div className="col-6 aboutLeft ps-0">
-                    <h6 style={{color: 'orange'}}>ABOUT ME</h6>
+                    <h6 style={{color: '#dd9510'}}>ABOUT ME</h6>
                     <h2>I like to build stuff</h2>
                     <p>I am an User Experience Designer with a concentration in design development. I dabble in real life projects as well.</p>
                     <LinkS to="portfolioGallery" spy={true} smooth={true} duration={100}>

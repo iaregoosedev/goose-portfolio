@@ -1,0 +1,11 @@
+.osfPage {
+    position: relative;
+    top: 80px;
+    width: 100%;
+    background: #0B1325;
+    color: white;
+}
+
+.catDesignImg {
+    /* max-height: 200px; */
+}

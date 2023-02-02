@@ -1,10 +1,16 @@
 .buttin {
+    width: 100%;
+    background-color: #dd9510;
     color: #0B1325;
-    border-radius: 8px;
+    border-radius: 10px;
     border: none;
+    transition: all 0.2s ease-in-out 0s;
 }
 
 .buttin:hover {
-    color: white;
-    background: #414C64;
+    color: #0B1325;
+    /* color: white; */
+    /* background: #414C64; */
+    background: white;
+    scale: 1.025;
 }

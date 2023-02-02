@@ -9,7 +9,7 @@ export default function Hero() {
             <div className="textImage" >
                 <div className="col-5 heroLeft">
                     <div className="textContainer">
-                        <h2>Hello, I’m Jason<br/>I design the <span style={{color: 'orange'}}>Complex</span></h2>
+                        <h2>Hello, I’m Jason<br/>I design the <span style={{color: '#dd9510'}}>Complex</span></h2>
                     </div>
                 </div>
                 <div className="col-7 heroRight">

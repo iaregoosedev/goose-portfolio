@@ -1,0 +1,27 @@
+.lwc {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    padding: 80px 24px 80px 24px;
+}
+
+.lwcContainer {
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+}
+
+.lwcWidth {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.lwcImg {
+    border-radius: 20px;
+    width: calc(100% - 20px);
+    box-shadow: 20px 20px 0 0 #71798b;
+}
+
+.lwcTitle {
+    color: #dd9510;
+}

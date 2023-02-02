@@ -1,0 +1,48 @@
+.osfDesigns {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    padding: 80px 24px 80px 24px;
+}
+
+.osfDesignsContainer {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.osfCarouselContainer {
+    width: 100%;
+    min-height: 300px;
+    position: relative;
+    display: flex;
+}
+
+.osfCarousel {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.osfDesign {
+    min-width: 25%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.osfDesignImg {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    border-radius: 10% / 5%;
+    padding: 5px;
+}
+
+.osfChevron {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+}
