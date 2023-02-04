@@ -38,4 +38,8 @@
     .resumeImg {
         margin-top: 20px;
     }
+
+    .resMob {
+        display: block;
+    }
 }
