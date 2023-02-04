@@ -60,6 +60,27 @@ nav {
 .navItem {
     cursor: pointer;
     color: white;
+    border-bottom: 0px;
+    transition: .1s;
+}
+
+.navLink:hover {
+    padding-top: 4px;
+    cursor: pointer;
+    color: #121F3D;
+    border-bottom: 4px solid #121F3D;
+    transition: .1s;
+}
+
+.active {
+    border-bottom: 4px solid #dd9510;
+    padding-top: 4px;
+    transition: .1s;
+}
+
+.noActive {
+    padding-top: 0;
+    border-bottom: none;
 }
 
 .navButtin {
@@ -113,7 +134,7 @@ nav {
         visibility: visible;
         height: 100%;
         transition: .5s;
-        gap: 10rem;
+        gap: 5rem;
         margin-top: 124px;
         opacity: 1;
         z-index: 0;
@@ -125,10 +146,11 @@ nav {
         transition: .5s;
         padding: 20px 24px;
         align-items: flex-start;
+        backdrop-filter: blur(10px);
     }
 
     .hamburger-react {
         height: 40px !important;
-        /* width: 40px !important; */
+        width: 40px !important;
     }
 }
