@@ -1,8 +1,8 @@
 
 .hero {
-    height: calc(100vh - 80px);
+    /* height: calc(100vh - 80px); */
     width: 100%;
-    transform: translateY(80px);
+    /* transform: translateY(80px); */
     padding: 0 24px;
     z-index: 1;
 }
@@ -16,13 +16,13 @@
 .textImage {
     display: flex;
     margin: auto;
-    height: calc(100vh - 180px);
+    height: 100%;
     max-width: 1200px;
 }
 
 .textImage::before {
     content: "";
-    height: calc(100vh - 80px);
+    height: 100%;
     position: absolute;
     inset: 0px;
     background: linear-gradient(rgba(14, 25, 49, 0.5) 0%, #0B1325 100%), linear-gradient(rgba(14, 25, 49, 0.2) 0%, transparent 100%);
@@ -30,7 +30,7 @@
 }
 
 .heroLeft {
-    height: calc(100vh - 80px);
+    height: 100%;
     top: 0;
     left: 0;
     /* background: #0E1931e0; */
@@ -38,6 +38,7 @@
     box-shadow: 35px 0 0 #71798b;
     z-index: 0;
     color: white;
+    transition: 1s;
 }
 
 .heroLeft::before {
@@ -46,7 +47,7 @@
     /* background: #0E1931e0; */
     background: linear-gradient(#0E1931e0, #0B1325 100%), linear-gradient(rgba(14, 25, 49, 0.2) 0%, transparent 100%);
     width: 1000px;
-    height: calc(100vh - 80px);
+    height: 100%;
     transform: translateX(-1250px);
 }
 
@@ -57,7 +58,7 @@
         left: 0;
         background: linear-gradient(#0E1931e0, #0B1325 100%), linear-gradient(rgba(14, 25, 49, 0.2) 0%, transparent 100%);
         width: 1274px;
-        height: calc(100vh - 80px);
+        height: 100%;
     }
 }
 
@@ -81,6 +82,7 @@
     border-radius: 20px 20px 0 0;
     margin: auto;
     transition: all 0.2s ease-in-out 0s;
+    transform: translateY(-100px);
 }
 
 .heroArrow:hover {
@@ -88,7 +90,7 @@
     background: #414C64;
     cursor: pointer;
     height: 120px;
-    transform: translateY(-20px);
+    transform: translateY(-120px);
 }
 
 @media screen and (max-width: 1264px) {

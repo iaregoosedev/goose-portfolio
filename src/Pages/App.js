@@ -3,13 +3,15 @@ import '../App.css';
 import { BrowserRouter as Router, His} from 'react-router-dom';
 import AnimatedRoutes from '../Components/AnimatedRoutes';
 import Header from '../Components/Header/header';
+import Navbar from '../Components/Navbar/navbar';
 
 function App({}) {
   return (
     <div className="App">
       
       <Router>
-        <Header/>
+        {/* <Header/> */}
+        <Navbar/>
         <AnimatedRoutes />
       </Router>
     </div>
