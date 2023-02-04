@@ -21,3 +21,17 @@
     background-position: center center;
     margin-bottom: 20px;
 }
+
+@media only screen and (max-width: 992px) {
+    .aboutContainer {
+        flex-direction: column-reverse;
+    }
+
+    .aboutRight {
+        padding: 0 0 20px 0;
+    }
+
+    .aboutLeft {
+        padding: 0;
+    }
+}

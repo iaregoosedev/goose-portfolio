@@ -21,3 +21,21 @@
     background-size: cover;
     background-position: center center;
 }
+
+.resMob {
+    display: none;
+}
+
+@media only screen and (max-width: 992px) {
+    .resumeContainer {
+        flex-direction: column-reverse;
+    }
+
+    .resDesk {
+        display: none;
+    }
+
+    .resumeImg {
+        margin-top: 20px;
+    }
+}

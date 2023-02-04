@@ -7,11 +7,12 @@ export default function Resume() {
     return (
         <div className="resume">
             <div className="resumeContainer row gx-6">
-                <div className="col-6 aboutRight ps-0">
-                    <h6 style={{color: '#dd9510'}}>RESUME</h6>
+                <div className="col-lg-6 aboutRight ps-0">
+                    <h6 className="resDesk" style={{color: '#dd9510'}}>RESUME</h6>
                     <img className="resumeImg" src={require('../../Images/Resume_2023.png')}/>
                 </div>
-                <div className="col-6 aboutLeft pe-0">
+                <div className="col-lg-6 aboutLeft pe-0">
+                    <h6 className="resMob" style={{color: '#dd9510'}}>RESUME</h6>
                     <h2>Please feel free to download my resume</h2>
                     <a href={require('../../Data/Bessett_Resume_2023.pdf')} download="Bessett_Resume"><Buttin>Download</Buttin></a>
                 </div>
