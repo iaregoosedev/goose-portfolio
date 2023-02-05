@@ -6,6 +6,8 @@ import Hero from "../../Components/Hero/hero";
 import PorfolioGallery from "../../Components/PortfolioGallery/portfolioGallery";
 import Resume from "../../Components/Resume/Resume";
 import {motion as m} from "framer-motion";
+import { ContactMe } from "../../Components/ContactMe/contactMe";
+import gooseGif from "../../Images/goose.gif"
 
 export default function Homepage() {
     return (
@@ -15,6 +17,7 @@ export default function Homepage() {
             <AboutMe id="aboutMe"/>
             <PorfolioGallery id="portfolioGallery"/>
             <Resume id="resume"/>
+            <ContactMe id="contactMe" title="Connect with me!" lwcImage={gooseGif}/>
             <Footer/>
             <m.div className="slider"
             // initial={{transform: "translateY(100vh)"}}
