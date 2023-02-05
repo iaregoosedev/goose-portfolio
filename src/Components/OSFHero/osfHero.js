@@ -13,7 +13,7 @@ export default function OsfHero() {
             initial={{opacity: 0, transition:{duration: .1}}}
             animate={{opacity: 1, transition:{duration: .2}}}
             exit={{opacity: 0, transition:{duration: .2}}}>
-               <div className="col-6 ps-0 textLogo">
+               <div className="col-lg-6 ps-0 textLogo">
                     <div style={{textAlign: 'center'}}>
                         <img className="osfLogo" src={osfLogo}></img>
                     </div>
@@ -32,7 +32,7 @@ export default function OsfHero() {
                         <Buttin>View Designs</Buttin>
                     </LinkS>
                 </div>
-                <div className="col-6 pe-0 image">
+                <div className="col-lg-6 pe-0 image">
                     <div className="prototype">
                     <p>WORKING(ish) PROTOTYPE</p>
                         <iframe loading="eager" scrolling="no" className="iframe" src="https://forwebsite.bubbleapps.io/version-test?debug_mode=true"></iframe>

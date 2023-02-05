@@ -13,8 +13,8 @@ export default function CATHero() {
             initial={{opacity: 0, transition:{duration: .1}}}
             animate={{opacity: 1, transition:{duration: .2}}}
             exit={{opacity: 0, transition:{duration: .2}}}>
-               <div className="col-6 textLogo">
-                    <div className="col-12" style={{textAlign: 'center', maxHeight: "300px"}}>
+               <div className="col-lg-6 ps-0 textLogo">
+                    <div className="col-12 mobHeight" style={{textAlign: 'center', maxHeight: "300px"}}>
                         <img className="catLogo" src={catLogo}></img>
                     </div>
                     <div className="text">
@@ -25,11 +25,11 @@ export default function CATHero() {
                         </p>
                     </div>
                     <br/>
-                    <div className="col-12" style={{textAlign: 'center', maxHeight: "300px"}}>
+                    <div className="col-12 mobHeight" style={{textAlign: 'center', maxHeight: "300px"}}>
                         <img className="catImage" src={require("../../Images/CatPage/Dash1.png")}></img>
                     </div>
                 </div>
-                <div className="col-6 rightText">
+                <div className="col-lg-6 pe-0 rightText">
                     <div className="col-12" style={{textAlign: 'center'}}>
                         <img className="catImage" src={require("../../Images/CatPage/IMG_5905.png")}></img>
                     </div>
@@ -37,7 +37,7 @@ export default function CATHero() {
                     <p>
                     In PART TWO of the challenge, I and the rest of the User Experience Design students from Bradley University were invited to Caterpillar Headquarters in Peoria, IL to work with their UX team on a hypothetical 100 floor building elevator design.
                     </p>
-                    <LinkS to="lwc" spy={true} smooth={true} duration={100}>
+                    <LinkS to="lwcCat" spy={true} smooth={true} duration={100} offset={-80}>
                         <Buttin>Part One</Buttin>
                     </LinkS>
                 </div> 

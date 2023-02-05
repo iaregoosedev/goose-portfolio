@@ -14,10 +14,10 @@ export default function SSHero() {
             animate={{opacity: 1, transition:{duration: .2}}}
             exit={{opacity: 0, transition:{duration: .2}}}>
                <div className="row textLogo mb-4">
-                    <div className="col-6" style={{textAlign: 'center', maxHeight: "300px"}}>
+                    <div className="col-lg-6" style={{textAlign: 'center', maxHeight: "300px"}}>
                         <img className="ssLogo" src={ssLogo}></img>
                     </div>
-                    <div className="col-6 text">
+                    <div className="col-lg-6 text">
                         <h1 className="pageTitle">7Summits Internship</h1>
                         <br/>
                         <p>

@@ -54,3 +54,34 @@
     border-radius: 2pc;
 }
 
+@media only screen and (max-width: 992px) {
+    /* .iframe {
+    -moz-transform: scale(0.71);
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(0.71);
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(0.71);
+    -webkit-transform-origin: 0 0;
+    } */
+
+    .osfHero {
+        height: auto;
+    }
+
+    .osfLogo {
+        max-height: 200px;
+    }
+
+    .image {
+        padding: 0;
+        margin-top: 16px;
+    }
+
+    .textLogo {
+        padding: 0;
+    }
+
+    .prototype p {
+        padding-left: 20px;
+    }
+}

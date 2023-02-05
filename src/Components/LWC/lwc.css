@@ -5,6 +5,13 @@
     padding: 80px 24px 80px 24px;
 }
 
+.lwcCat {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    padding: 80px 24px 80px 24px;
+}
+
 .lwcContainer {
     max-width: 1200px;
     margin: auto;
@@ -24,4 +31,19 @@
 
 .lwcTitle {
     color: #dd9510;
+}
+
+@media only screen and (max-width: 992px) {
+    .lwc {
+        padding: 40px 24px 40px 24px;
+    }
+    .lwcCat {
+        padding: 40px 24px 40px 24px;
+    }
+    .lwcText {
+        padding: 0;
+    }
+    .lwcImgContainer {
+        padding: 20px 0;
+    }
 }
