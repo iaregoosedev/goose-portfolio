@@ -15,7 +15,7 @@ export default function OsfHero() {
             exit={{opacity: 0, transition:{duration: .2}}}>
                <div className="col-lg-6 ps-0 textLogo">
                     <div style={{textAlign: 'center'}}>
-                        <img className="osfLogo" src={osfLogo}></img>
+                        <img alt="OSF Logo" className="osfLogo" src={osfLogo}></img>
                     </div>
                     <div className="text">
                         <h1 className="pageTitle">OSF Posture Application</h1>

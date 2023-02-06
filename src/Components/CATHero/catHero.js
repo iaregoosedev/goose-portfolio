@@ -15,7 +15,7 @@ export default function CATHero() {
             exit={{opacity: 0, transition:{duration: .2}}}>
                <div className="col-lg-6 ps-0 textLogo">
                     <div className="col-12 mobHeight" style={{textAlign: 'center', maxHeight: "300px"}}>
-                        <img className="catLogo" src={catLogo}></img>
+                        <img alt="Caterpillar Logo" className="catLogo" src={catLogo}></img>
                     </div>
                     <div className="text">
                         <h1 className="pageTitle">Caterpillar Design Challenge</h1>
@@ -26,12 +26,12 @@ export default function CATHero() {
                     </div>
                     <br/>
                     <div className="col-12 mobHeight" style={{textAlign: 'center', maxHeight: "300px"}}>
-                        <img className="catImage" src={require("../../Images/CatPage/Dash1.png")}></img>
+                        <img alt="Dashbord of Cat Redesign" className="catImage" src={require("../../Images/CatPage/Dash1.png")}></img>
                     </div>
                 </div>
                 <div className="col-lg-6 pe-0 rightText">
                     <div className="col-12" style={{textAlign: 'center'}}>
-                        <img className="catImage" src={require("../../Images/CatPage/IMG_5905.png")}></img>
+                        <img alt="My Class at Cat HQ in Peoria" className="catImage" src={require("../../Images/CatPage/IMG_5905.png")}></img>
                     </div>
                     <br/>
                     <p>

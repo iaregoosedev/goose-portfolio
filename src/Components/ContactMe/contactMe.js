@@ -8,7 +8,6 @@ export const ContactMe = (props) => {
     const thnakRef = useRef();
     const formRef = useRef();
     const switchContact = () => {
-        console.log("poo");
         thnakRef.current.classList.toggle("thankYou");
         formRef.current.classList.toggle("thankYou");
     }
@@ -43,18 +42,21 @@ export const ContactMe = (props) => {
                                 <h1>Connect via G<small>oose</small>Mail<p>im sorry</p></h1>
                             </div>
                             <form ref={form} onSubmit={sendEmail}>
-                                <label>Name</label>
-                                <input type="text" name="user_name" />
-                                <label>Email</label>
-                                <input type="email" name="user_email" />
-                                <label>Message</label>
-                                <textarea name="message" />
+                                {/* <label>Name</label> */}
+                                <input label="Name" placeholder='Name' type="text" name="user_name" />
+                                <br/>
+                                {/* <label>Email</label> */}
+                                <input label="Email" placeholder='Email' type="email" name="user_email" />
+                                <br/>
+                                {/* <label>Message</label> */}
+                                <textarea label="Message" placeholder='Message' name="message" />
+                                <br/>
                                 <Buttin type="submit" value="Send" onClick={switchContact}>Send</Buttin>
                             </form>
                         </div>
                     </div>
                     <div className="col-lg-6 pe-0 contactImgContainer">
-                        <img className="contactImg" src={lwcImage}></img>
+                        <img alt='Goose Gif' className="contactImg" src={lwcImage}></img>
                     </div>
                 </div>
             </m.div>

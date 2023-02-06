@@ -15,7 +15,7 @@ export default function SSHero() {
             exit={{opacity: 0, transition:{duration: .2}}}>
                <div className="row textLogo mb-4">
                     <div className="col-lg-6" style={{textAlign: 'center', maxHeight: "300px"}}>
-                        <img className="ssLogo" src={ssLogo}></img>
+                        <img alt="7Summits Logo" className="ssLogo" src={ssLogo}></img>
                     </div>
                     <div className="col-lg-6 text">
                         <h1 className="pageTitle">7Summits Internship</h1>
@@ -29,7 +29,7 @@ export default function SSHero() {
                         </LinkS>
                     </div>
                 </div>
-                <img className="image" src={require("../../Images/ssBackground.png")}></img>
+                <img alt="Mockup of a component for 7Summits" className="image" src={require("../../Images/ssBackground.png")}></img>
             </m.div>
         </div>
     )

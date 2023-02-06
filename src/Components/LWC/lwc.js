@@ -6,7 +6,7 @@ import {motion as m} from "framer-motion";
 import {Link as LinkS} from "react-scroll"
 
 export default function LWC(props) {
-    const {title, description, lwcImage, btnLabel, image, url, part} = props;
+    const {title, description, lwcImage, btnLabel, image, url, part, altText} = props;
     if (image == "right") {
         return (
             <m.div className="lwc"
@@ -22,7 +22,7 @@ export default function LWC(props) {
                         </a>
                     </div>
                     <div className="col-lg-6 pe-0 lwcImgContainer">
-                        <img className="lwcImg" src={lwcImage}></img>
+                        <img alt={altText} className="lwcImg" src={lwcImage}></img>
                     </div>
                 </div>
             </m.div>
@@ -37,7 +37,7 @@ export default function LWC(props) {
                 <div className="row lwcContainer">
                     <div className="col-lg-6 ps-0 lwcImgContainer">
                         <p>{part}</p>
-                        <img className="lwcImg" src={lwcImage}></img>
+                        <img alt={altText} className="lwcImg" src={lwcImage}></img>
                     </div>
                     <div className="col-lg-6 pe-0 lwcText">
                         <h1 className="lwcTitle">{title}</h1>
@@ -59,7 +59,7 @@ export default function LWC(props) {
                 <div className="row lwcContainer">
                     <div className="col-lg-6 ps-0 lwcImgContainer">
                         <p>{part}</p>
-                        <img className="lwcImg" src={lwcImage}></img>
+                        <img alt={altText} className="lwcImg" src={lwcImage}></img>
                     </div>
                     <div className="col-lg-6 pe-0 lwcText">
                         <h1 className="lwcTitle">{title}</h1>
@@ -89,13 +89,13 @@ export default function LWC(props) {
                     <div className="col-lg-6 pe-0 lwcImgContainer">
                         <Carousel cols={1} rows={1} loop>
                             <Carousel.Item>
-                                <img className="osfDesignImg" src={require('../../Images/CatPage/CreateAccount.png')}/>
+                                <img alt={altText} className="osfDesignImg" src={require('../../Images/CatPage/CreateAccount.png')}/>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img className="osfDesignImg" src={require('../../Images/CatPage/AccountLinking.png')}/>
+                                <img alt={altText} className="osfDesignImg" src={require('../../Images/CatPage/AccountLinking.png')}/>
                             </Carousel.Item>
                             <Carousel.Item>
-                                <img className="osfDesignImg" src={require('../../Images/CatPage/Dashboard.png')}/>
+                                <img alt={altText} className="osfDesignImg" src={require('../../Images/CatPage/Dashboard.png')}/>
                             </Carousel.Item>
                         </Carousel>
                     </div>

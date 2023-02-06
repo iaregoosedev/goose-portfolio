@@ -15,40 +15,40 @@ export default function OSFDesigns (){
                 <div className="osfCarouselContainer">
                     <Carousel cols={4} rows={1} gap={8} loop>
                         <Carousel.Item>
-                            <img className="osfDesignImg" src={require('../../Images/OSFDesigns/SPLASH.png')}/>
+                            <img alt="Splash Screen" className="osfDesignImg" src={require('../../Images/OSFDesigns/SPLASH.png')}/>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img className="osfDesignImg" src={require('../../Images/OSFDesigns/LOGIN.png')}/>
+                            <img alt="Login Screen" className="osfDesignImg" src={require('../../Images/OSFDesigns/LOGIN.png')}/>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img className="osfDesignImg" src={require('../../Images/OSFDesigns/HOME.png')}/>
+                            <img alt="Home Screen" className="osfDesignImg" src={require('../../Images/OSFDesigns/HOME.png')}/>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img className="osfDesignImg" src={require('../../Images/OSFDesigns/LOGPAIN1.png')}/>
+                            <img alt="Log Pain 1 Screen" className="osfDesignImg" src={require('../../Images/OSFDesigns/LOGPAIN1.png')}/>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img className="osfDesignImg" src={require('../../Images/OSFDesigns/LOGPAIN3.png')}/>
+                            <img alt="Log Pain 2 Screen" src={require('../../Images/OSFDesigns/LOGPAIN3.png')}/>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img className="osfDesignImg" src={require('../../Images/OSFDesigns/LOGPAIN4.png')}/>
+                            <img alt="Log Pain 3 Screen" className="osfDesignImg" src={require('../../Images/OSFDesigns/LOGPAIN4.png')}/>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img className="osfDesignImg" src={require('../../Images/OSFDesigns/SETTINGS.png')}/>
+                            <img alt="Settings Screen" className="osfDesignImg" src={require('../../Images/OSFDesigns/SETTINGS.png')}/>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img className="osfDesignImg" src={require('../../Images/OSFDesigns/NEW_SESSION.png')}/>
+                            <img alt="New Session Screen" className="osfDesignImg" src={require('../../Images/OSFDesigns/NEW_SESSION.png')}/>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img className="osfDesignImg" src={require('../../Images/OSFDesigns/FOLLOW_OPTIONS.png')}/>
+                            <img alt="Follow Options Screen" className="osfDesignImg" src={require('../../Images/OSFDesigns/FOLLOW_OPTIONS.png')}/>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img className="osfDesignImg" src={require('../../Images/OSFDesigns/GUIDED.png')}/>
+                            <img alt="Guide Screen" className="osfDesignImg" src={require('../../Images/OSFDesigns/GUIDED.png')}/>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img className="osfDesignImg" src={require('../../Images/OSFDesigns/COMPLETE.png')}/>
+                            <img alt="Complete Screen" className="osfDesignImg" src={require('../../Images/OSFDesigns/COMPLETE.png')}/>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img className="osfDesignImg" src={require('../../Images/OSFDesigns/Education.png')}/>
+                            <img alt="Education Screen" className="osfDesignImg" src={require('../../Images/OSFDesigns/Education.png')}/>
                         </Carousel.Item>
                     </Carousel>
                 </div>

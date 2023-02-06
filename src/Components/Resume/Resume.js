@@ -9,7 +9,7 @@ export default function Resume() {
             <div className="resumeContainer row gx-6">
                 <div className="col-lg-6 aboutRight ps-0">
                     <h6 className="resDesk" style={{color: '#dd9510'}}>RESUME</h6>
-                    <img className="resumeImg" src={require('../../Images/Resume_2023.png')}/>
+                    <img alt="Resume Image" className="resumeImg" src={require('../../Images/Resume_2023.png')}/>
                 </div>
                 <div className="col-lg-6 aboutLeft pe-0">
                     <h6 className="resMob" style={{color: '#dd9510'}}>RESUME</h6>
