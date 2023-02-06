@@ -27,7 +27,7 @@ export default function OSFDesigns (){
                             <img alt="Log Pain 1 Screen" className="osfDesignImg" src={require('../../Images/OSFDesigns/LOGPAIN1.png')}/>
                         </Carousel.Item>
                         <Carousel.Item>
-                            <img alt="Log Pain 2 Screen" src={require('../../Images/OSFDesigns/LOGPAIN3.png')}/>
+                            <img alt="Log Pain 2 Screen" className="osfDesignImg" src={require('../../Images/OSFDesigns/LOGPAIN3.png')}/>
                         </Carousel.Item>
                         <Carousel.Item>
                             <img alt="Log Pain 3 Screen" className="osfDesignImg" src={require('../../Images/OSFDesigns/LOGPAIN4.png')}/>
