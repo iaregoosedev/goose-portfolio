@@ -36,7 +36,10 @@ header {
 }
 
 .navLeft {
+    display: flex;
+    align-items: flex-end;
     text-align: left;
+    transition: .5s;
 }
 
 .navLeft h1 {
@@ -111,6 +114,11 @@ nav {
     .header_height {
         height: 100vh;
         backdrop-filter: blur(8px);
+    }
+
+    .navLeft {
+        display: inline;
+        transition: .5s;
     }
 
     header nav {

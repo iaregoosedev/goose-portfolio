@@ -5,11 +5,13 @@ import CATHero from "../../Components/CATHero/catHero";
 import LWC from "../../Components/LWC/lwc";
 import meTalk from "../../Images/CatPage/MeTalk.png"
 import Footer from ".././../Components/Footer/footer.js"
+import Navbar from "../../Components/Navbar/navbar";
 
 export default function CATPage() {
     return (
         <div className="osfPage">
-            <ScrollToTop/> 
+            <ScrollToTop/>
+            <Navbar state="none" pageName="Caterpillar"/>
             <CATHero/>
             <br/>
             <br/>

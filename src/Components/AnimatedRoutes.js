@@ -5,6 +5,7 @@ import OSFPage from '../Pages/OSFPage/osfPage';
 import {AnimatePresence} from "framer-motion";
 import SSPage from '../Pages/SSPage/ssPage';
 import CATPage from '../Pages/CATPage/catPage';
+import LLPage from '../Pages/LLPage/llPage';
 
 function AnimatedRoutes() {
     const location = useLocation();
@@ -12,7 +13,7 @@ function AnimatedRoutes() {
     <AnimatePresence mode='wait'>
         <Routes location={location} key={location.pathname}>
             <Route path='/' element={<Homepage/>}/>
-            <Route path='/LuminosLabs' element={<OSFPage/>}/>
+            <Route path='/LuminosLabs' element={<LLPage/>}/>
             <Route path='/OSF' element={<OSFPage/>}/>
             <Route path='/CAT' element={<CATPage/>}/>
             <Route path='/7Summits' element={<SSPage/>}/>

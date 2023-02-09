@@ -11,7 +11,7 @@ function App({}) {
       
       <Router>
         {/* <Header/> */}
-        <Navbar/>
+        {/* <Navbar/> */}
         <AnimatedRoutes />
       </Router>
     </div>

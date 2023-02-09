@@ -4,6 +4,7 @@
     /* transform: translateY(80px); */
     padding: 0 24px;
     z-index: 1;
+    
 }
 
 /* @media screen and (max-width: 1264px) {
@@ -12,43 +13,52 @@
     }
 } */
 
-.textImage {
+.textCenter {
     display: flex;
+    flex-direction: column;
     margin: auto;
     height: 100%;
     max-width: 1200px;
+    align-items: center;
+    justify-content: center;
 }
 
-.textImage::before {
+.textCenter::before {
     content: "";
     height: 100%;
     position: absolute;
     inset: 0px;
-    background: linear-gradient(rgba(14, 25, 49, 0.5) 0%, #0B1325 100%), linear-gradient(rgba(14, 25, 49, 0.2) 0%, transparent 100%);
+    background: linear-gradient(rgba(14, 25, 49, 0.7) 0%, #0B1325 100%), linear-gradient(rgba(14, 25, 49, 0.2) 0%, transparent 100%);
     z-index: 0;
 }
 
-.heroLeft {
-    height: 100%;
-    top: 0;
-    left: 0;
-    /* background: #0E1931e0; */
-    background: linear-gradient(#0E1931e0, #0B1325 100%), linear-gradient(rgba(14, 25, 49, 0.2) 0%, transparent 100%);
-    box-shadow: 35px 0 0 #71798b;
-    z-index: 0;
-    color: white;
-    transition: 1s;
+.skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-content: space-between;
+    z-index: 1;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 75px;
 }
 
-.heroLeft::before {
+.skillLogo {
+    max-height: 75px;
+}
+
+.arrowSkills {
+    display: flex;
+    flex-direction: column;
+}
+
+/* .heroLeft::before {
     content: '';
     position: absolute;
-    /* background: #0E1931e0; */
     background: linear-gradient(#0E1931e0, #0B1325 100%), linear-gradient(rgba(14, 25, 49, 0.2) 0%, transparent 100%);
     width: 1000px;
     height: 100%;
     transform: translateX(-1250px);
-}
+} */
 
 @media screen and (max-width: 1246px) {
     .heroLeft::before {
@@ -109,4 +119,17 @@
         height: 100px;
         transform: translateY(-100px);
     }
+
+    .skills {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.5rem;
+    }
+
+    .skillLogo {
+        max-height: 50px;
+    }
+
+    .skillLogo:last-child:nth-last-child(odd) {
+        grid-column: auto / span 2;
+      }
   }
