@@ -3,5 +3,52 @@
     width: 100%;
     color: white;
     text-align: left;
-    padding: 144px 24px 144px 24px;
+    padding: 60px 24px 60px 24px;
+}
+
+.footerContainer {
+    list-style: none;
+    display: flex;
+    margin: auto;
+    max-width: 1200px;
+}
+
+.footText {
+    display: flex;
+    color: white;
+}
+
+.footLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.copywrite {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.socialLinks {
+    display: flex;
+}
+
+.socialLink {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .footerContainer {
+        flex-direction: column;
+        gap: 2rem;
+    } 
+    
+    .footText {
+        justify-content: center;
+    }
 }
