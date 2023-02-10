@@ -10,7 +10,7 @@
     list-style: none;
     display: flex;
     margin: auto;
-    max-width: 1200px;
+    max-width: 1200px;justify-content: space-between;
 }
 
 .footText {
@@ -32,6 +32,12 @@
     width: 100%;
 }
 
+.contactLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 .socialLinks {
     display: flex;
 }
@@ -40,6 +46,20 @@
     color: white;
     display: flex;
     justify-content: center;
+}
+
+.footEmail {
+    display: flex;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+
+.footPhone {
+    display: flex;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 992px) {

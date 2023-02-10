@@ -61,7 +61,7 @@
     z-index: 1;
 }
 
-h2 {
+.llGallery .container h2 {
     z-index: 1;
     color: white;
     padding: 12px;
