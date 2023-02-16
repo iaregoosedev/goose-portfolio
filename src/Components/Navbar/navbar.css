@@ -135,7 +135,7 @@ nav {
         transition: .5s;
         margin-top: 0;
         visibility: hidden;
-        opacity: 0;
+        opacity: 0 !important;
     }
 
     .visible_links {
@@ -144,7 +144,7 @@ nav {
         transition: .5s;
         gap: 5rem;
         margin-top: 124px;
-        opacity: 1;
+        opacity: 1 !important;
         z-index: 0;
     }
 

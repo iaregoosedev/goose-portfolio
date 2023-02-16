@@ -11,7 +11,7 @@ export default function AboutMe() {
                 <div className="col-lg-6 aboutLeft ps-0">
                     <h6 style={{color: '#dd9510'}}>ABOUT ME</h6>
                     <h2>I like to build stuff</h2>
-                    <p>I am an User Experience Designer with a concentration in design development. I am skilled with Figma, Adobe Suite, HTML, CSS, and JS.</p>
+                    <p>I am a User Experience Designer with a concentration in design development. I am skilled with Figma, Adobe Suite, HTML, CSS, and JS.</p>
                     <LinkS to="portfolioGallery" spy={true} smooth={true} duration={100}>
                         <Buttin>See my Portfolio</Buttin>
                     </LinkS>

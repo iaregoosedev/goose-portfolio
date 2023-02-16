@@ -73,7 +73,9 @@ export default function Navbar(props) {
                         <m.nav ref={linkRef} className="col-lg-8"
                         initial={{opacity: 0}}
                         animate={{opacity:1}}
-                        exit={{opacity:0}}>
+                        exit={{opacity:0}}
+                        transition={{duration: .5}}
+                        >
                             <LinkS className="navItem" to="aboutMe" spy={true} smooth={true} duration={100} onClick={() => {showNav(); hamClick();}}>
                                 <li>
                                     <h5 className="m-0">About Me</h5>
