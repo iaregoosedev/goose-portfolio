@@ -22,7 +22,7 @@ export default function LLHero() {
                         <h3 className="pageTitle">Jr. User Experience Designer</h3>
                         <br/>
                         <p>
-                        I was resposible for designing end-user experience solutions for eCommerce replatform projects. I utilized Figma to build a library of reusable components that would be used as jumping off points for designs. I also helped with deveolopment of designs as a front-end developer.
+                        I was responsible for designing end-user experience solutions for eCommerce replatform projects both B2B and B2C. I utilized Figma to build a library of reusable components that would be used as jumping off points for designs. I also helped with deveolopment of designs as a front-end developer.
                         </p>
                         {/* <br/>
                         <LinkS to="lwc" offset={-48} spy={true} smooth={true} duration={100}>

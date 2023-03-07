@@ -21,7 +21,7 @@ export default function SSHero() {
                         <h1 className="pageTitle">7Summits Internship</h1>
                         <br/>
                         <p>
-                        During my internship, I Worked closely with the lightning web component development team as a front end developer, creating multiple web components. This was where my coding skills were put to the test for the first time in a real world working environment.
+                        During my internship, I worked closely with the lightning web component development team as a front end developer, creating multiple web components. This was where my coding skills were put to the test for the first time in a real world working environment.
                         </p>
                         <br/>
                         <LinkS to="lwc" offset={-48} spy={true} smooth={true} duration={100}>
