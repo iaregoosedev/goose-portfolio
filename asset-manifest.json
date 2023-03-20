@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.2ee07190.css",
-    "main.js": "/static/js/main.01367e45.js",
+    "main.js": "/static/js/main.deacd513.js",
     "static/js/787.d4d22c7c.chunk.js": "/static/js/787.d4d22c7c.chunk.js",
     "static/media/dumpBG.png": "/static/media/dumpBG.a328bf7f4ecf9d3669a9.png",
     "static/media/MeTalk.png": "/static/media/MeTalk.91557dd96912e7eea332.png",
@@ -11,15 +11,15 @@
     "static/media/CreateAccount.png": "/static/media/CreateAccount.9bfab59ef66feaf082a6.png",
     "static/media/ChefsBG.png": "/static/media/ChefsBG.98add8913ba34c6ede9b.png",
     "static/media/ContactUs.PNG": "/static/media/ContactUs.cd121a7fed5c457def7b.PNG",
+    "static/media/Resume_v2.png": "/static/media/Resume_v2.8b360af0a2170a8b483b.png",
     "static/media/CatBackground.jpg": "/static/media/CatBackground.9f7556af1bf1a309c7e7.jpg",
-    "static/media/Resume_v2.png": "/static/media/Resume_v2.9ce58863a6ba10290bf7.png",
     "static/media/AccountLinking.png": "/static/media/AccountLinking.6b9dfedd6e488155798c.png",
     "static/media/GuideMe.PNG": "/static/media/GuideMe.29bcb76f1bd472e52f5b.PNG",
     "static/media/PageInfo.PNG": "/static/media/PageInfo.8381666f7cea17d7be3c.PNG",
     "static/media/classichomeBG.png": "/static/media/classichomeBG.95d8cba494af7a79ae9f.png",
     "static/media/Dashboard.png": "/static/media/Dashboard.f404de209537b56963b7.png",
     "static/media/ssBackground.png": "/static/media/ssBackground.d6bec9d9330066302053.png",
-    "static/media/Resume_v2.pdf": "/static/media/Resume_v2.2b49d1e440658542c5fc.pdf",
+    "static/media/Resume_v2.pdf": "/static/media/Resume_v2.a64a7f77c0e980b6418e.pdf",
     "static/media/OSFBackground.png": "/static/media/OSFBackground.aeaaabe4a1fcad9249c6.png",
     "static/media/CatLogo.png": "/static/media/CatLogo.c027b13a3beb6a2431ac.png",
     "static/media/CCLogo.png": "/static/media/CCLogo.214e025f229aef8a6b11.png",
@@ -37,11 +37,11 @@
     "static/media/FOLLOW_OPTIONS.png": "/static/media/FOLLOW_OPTIONS.ebc4d2b2caefeb69de2a.png",
     "index.html": "/index.html",
     "main.2ee07190.css.map": "/static/css/main.2ee07190.css.map",
-    "main.01367e45.js.map": "/static/js/main.01367e45.js.map",
+    "main.deacd513.js.map": "/static/js/main.deacd513.js.map",
     "787.d4d22c7c.chunk.js.map": "/static/js/787.d4d22c7c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2ee07190.css",
-    "static/js/main.01367e45.js"
+    "static/js/main.deacd513.js"
   ]
 }
