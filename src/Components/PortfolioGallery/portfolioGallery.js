@@ -14,6 +14,10 @@ export default function PorfolioGallery() {
                 <h6 style={{color: '#dd9510'}}>PORTFOLIO</h6>
                 <h2>I made some stuff</h2>
                 <div className="galleryGrid">
+                    <Link to="/OLIMP" className="portfolioCard" onClick={BgChangeLL}>
+                        <img alt="OLIMP Warehouisng Logo" className="logo" src={require('../../Images/OLogo.png')}/>
+                        <h2>OLIMP Warehousing</h2>
+                    </Link>
                     <Link to="/LuminosLabs" className="portfolioCard" style={{backgroundImage: `url(${llBackground})`}} onClick={BgChangeLL}>
                         <img alt="Luminos Labs Logo" className="logo" src={require('../../Images/LLLogo.png')}/>
                         <h2>Luminos Labs</h2>

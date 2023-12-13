@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  font-family: Jura, sans-serif;
+  font-family: Be+Vietnam+Pro, sans-serif;
   background-color: #0B1325;
   min-height: 100vh;
   display: flex;
@@ -44,15 +44,18 @@ p {
 }
 
 h1 {
-  font-weight: 700;
+  font-weight: 600;
+  letter-spacing: 2px;
 }
 
 h2 {
   font-weight: 600;
+  letter-spacing: 1px;
 }
 
 h5 {
   font-weight: 500;
+  letter-spacing: 1px;
 }
 
 @media only screen and (max-width: 992px) {

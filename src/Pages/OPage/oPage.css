@@ -1,0 +1,7 @@
+.ssPage {
+    position: relative;
+    width: 100%;
+    height: calc(100% + 80px);
+    background: #0B1325;
+    color: white;
+}
