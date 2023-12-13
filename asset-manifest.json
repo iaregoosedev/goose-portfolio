@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.182324eb.css",
-    "main.js": "/static/js/main.5794fec6.js",
+    "main.js": "/static/js/main.b3a5b555.js",
     "static/js/787.d4d22c7c.chunk.js": "/static/js/787.d4d22c7c.chunk.js",
     "static/media/dumpBG.png": "/static/media/dumpBG.a328bf7f4ecf9d3669a9.png",
     "static/media/MeTalk.png": "/static/media/MeTalk.91557dd96912e7eea332.png",
@@ -19,7 +19,7 @@
     "static/media/classichomeBG.png": "/static/media/classichomeBG.95d8cba494af7a79ae9f.png",
     "static/media/Dashboard.png": "/static/media/Dashboard.f404de209537b56963b7.png",
     "static/media/ssBackground.png": "/static/media/ssBackground.d6bec9d9330066302053.png",
-    "static/media/Resume_2024.pdf": "/static/media/Resume_2024.1b6ca3a68246a398c94d.pdf",
+    "static/media/Resume_2024.pdf": "/static/media/Resume_2024.cab27c5f257eb4006a05.pdf",
     "static/media/OSFBackground.png": "/static/media/OSFBackground.aeaaabe4a1fcad9249c6.png",
     "static/media/CatLogo.png": "/static/media/CatLogo.c027b13a3beb6a2431ac.png",
     "static/media/CCLogo.png": "/static/media/CCLogo.214e025f229aef8a6b11.png",
@@ -37,11 +37,11 @@
     "static/media/FOLLOW_OPTIONS.png": "/static/media/FOLLOW_OPTIONS.ebc4d2b2caefeb69de2a.png",
     "index.html": "/index.html",
     "main.182324eb.css.map": "/static/css/main.182324eb.css.map",
-    "main.5794fec6.js.map": "/static/js/main.5794fec6.js.map",
+    "main.b3a5b555.js.map": "/static/js/main.b3a5b555.js.map",
     "787.d4d22c7c.chunk.js.map": "/static/js/787.d4d22c7c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.182324eb.css",
-    "static/js/main.5794fec6.js"
+    "static/js/main.b3a5b555.js"
   ]
 }
