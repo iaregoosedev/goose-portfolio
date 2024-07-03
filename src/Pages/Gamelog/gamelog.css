@@ -1,0 +1,17 @@
+.gamelog {
+    width: 100%;
+}
+
+.mondayContainer {
+    margin-top: 100px;
+    width: 100%;
+    height: 100vh;
+    padding: 24px;
+}
+
+.mondayIframe {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    border-radius: 20px;
+}
