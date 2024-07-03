@@ -5,6 +5,7 @@
 .mondayContainer {
     margin-top: 100px;
     width: 100%;
+    max-width: 1200px;
     height: calc(100vh - 100px);
     padding: 24px;
 }
