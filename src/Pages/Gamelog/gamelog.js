@@ -10,7 +10,7 @@ export default function Gamelog() {
       <div className="mondayContainer">
         <iframe
           className="mondayIframe"
-          src='https://view.monday.com/embed/6897085069-fca2d12bad496c1c5dcc53ee9ffdf92a?r=use1" width=770 height=500 style="overflow-x: hidden; border: 0; box-shadow: 5px 5px 56px 0px rgba(0,0,0,0.25);'
+          src='https://view.monday.com/embed/6897085069-fca2d12bad496c1c5dcc53ee9ffdf92a?r=use1" style=" overflow-x: hidden; border: 0; box-shadow: 5px 5px 56px 0px rgba(0,0,0,0.25);'
         />
       </div>
       <Footer />
