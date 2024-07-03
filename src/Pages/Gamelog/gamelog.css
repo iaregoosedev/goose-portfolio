@@ -8,6 +8,8 @@
     max-width: 1200px;
     height: calc(100vh - 100px);
     padding: 24px;
+    justify-content: center;
+    align-items: center;
 }
 
 .mondayIframe {
@@ -15,5 +17,4 @@
     height: 100%;
     overflow-x: hidden;
     border-radius: 20px;
-    
 }
