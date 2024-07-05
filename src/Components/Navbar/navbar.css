@@ -5,26 +5,32 @@ header {
     width: 100%;
     display: flex;
     z-index: 2;
-    padding: 24px;
+    /* padding: 24px; */
     transition: .5s;
     height: 104px;
+    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+    background: #71798B80;
+    backdrop-filter: blur(10px);
+    padding: 20px 24px;
 }
 
 .navBar {
     width: 100%;
     display: flex;
-    box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
-    background: #71798B80;
-    backdrop-filter: blur(10px);
-    border-radius: 40px;
-    padding: 20px 24px;
+    /* box-shadow: 0px 3px 15px rgba(0,0,0,0.2); */
+    /* background: #71798B80;
+    backdrop-filter: blur(10px); */
+    /* border-radius: 40px; */
+    /* padding: 20px 24px; */
     /* align-items: center; */
     
-    min-height: 80px;
+    /* min-height: 80px; */
     /* height: 80px; */
     max-width: 1200px;
     margin: 0 auto;
     transition: .5s;
+
+    /* align-items: center; */
 
 }
 
@@ -33,7 +39,8 @@ header {
     width: 100%;
     justify-content: space-between;
     max-height: 40px;
-    align-items: center;
+    /* align-items: center; */
+    padding-top: 10px;
 }
 
 .navLeft {
@@ -114,7 +121,7 @@ nav {
 
     .header_height {
         height: 100vh;
-        backdrop-filter: blur(8px);
+        backdrop-filter: blur(10px);
     }
 
     .navLeft {
@@ -151,11 +158,11 @@ nav {
 
     header .responsive_nav {
         max-height: none;
-        height: 100%;
-        transition: .5s;
-        padding: 20px 24px;
+        /* height: 100%; */
+        /* transition: .5s; */
+        /* padding: 20px 24px; */
         align-items: flex-start;
-        backdrop-filter: blur(10px);
+        /* backdrop-filter: blur(10px); */
     }
 
     .hamburger-react {
